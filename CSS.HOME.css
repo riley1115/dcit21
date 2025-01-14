@@ -1,74 +1,77 @@
 body {
-    background-color: white;
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 nav {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1400px;
-    height: 50px;
-    background: black;
-    border-radius: 8px;
-    font-size: 0;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
-  }
-  
-  nav a {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    line-height: 50px; /* You can remove this since flexbox handles alignment */
-    position: relative;
-    z-index: 1;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    width: 150px;
-    text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  height: 50px;
+  background: black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around; /* Distribute links evenly */
+  align-items: center;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-  
-  nav .animation {
-    position: absolute;
-    height: 5px;
-    top: 45px; /* Adjust this to align properly */
-    z-index: 0;
-    background: white;
-    border-radius: 8px;
-    transition: all .5s ease 0s;
-    width: 110px; /* Default width */
-    left: 20px; /* Default position */
-  }
-  
-  /* Home link hover */
-  nav a:nth-child(1):hover ~ .animation {
-    width: 110px;
-    
-  }
-  
-  /* About link hover */
-  nav a:nth-child(2):hover ~ .animation {
-    width: 110px;
-    left: 170px;
-  }
-  
-  /* Services link hover */
-  nav a:nth-child(3):hover ~ .animation {
-    width: 110px;
-    left: 319px;
-  }
-  
-  /* Portfolio link hover */
-  nav a:nth-child(4):hover ~ .animation {
-    width: 120px;
-    left: 464px;
-  }
-  
-  /* Contact link hover */
-  nav a:nth-child(5):hover ~ .animation {
-    width: 120px;
-    left: 613px;
-  }
-  
+nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white; /* Updated to white for better contrast */
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: yellow; /* Hover color for better visibility */
+}
+
+nav .animation {
+  position: absolute;
+  height: 5px;
+  top: 45px; /* Align animation bar below links */
+  z-index: 0;
+  background: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 110px; /* Default width */
+  left: 0; /* Default position */
+}
+
+/* Home link hover */
+nav a:nth-child(1):hover ~ .animation {
+ 
+  left: 50px;
+}
+
+/* About link hover */
+nav a:nth-child(2):hover ~ .animation {
+  width: 110px;
+  left: 295px; /* Adjusted positions */
+}
+
+/* Services link hover */
+nav a:nth-child(3):hover ~ .animation {
+  width: 110px;
+  left: 550px;
+}
+
+/* Portfolio link hover */
+nav a:nth-child(4):hover ~ .animation {
+  width: 120px;
+  left: 820px;
+}
+
+/* Contact link hover */
+nav a:nth-child(5):hover ~ .animation {
+  width: 120px;
+  left: 1090px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+</style>
+
+<div class="container">
+    <img src="jordan1.png" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text"><img src="onitsuka.jpg" alt=""></div>
+    </div>
+  </div>
+<body>
+    
+</body>
+</html>

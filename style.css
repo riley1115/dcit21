@@ -1,0 +1,371 @@
+
+    body{
+        font-family: "Noto Sans Coptic", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-weight: bolder;
+    }
+
+    .add-to-cart-btn {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 80px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: black; /* Bright orange button */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .add-to-cart-btn:hover {
+        background-color:brown; /* Slightly lighter orange on hover */
+        transform: scale(1.05); /* Slight enlargement on hover */
+    }
+    
+    .add-to-cart-btn:active {
+        transform: scale(0.95); /* Shrinks slightly when clicked */
+    }
+   
+
+.polaroid1 {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    border: none;
+    border-radius: 40px;
+    transition: .05s;
+
+}
+
+.polaroid2 {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    border: solid 2px;
+    border-radius: 40px;
+    transition: 0.1s;
+
+}
+
+
+
+.frame {
+    
+    padding: 200px 50px;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+}
+
+.polaroid1:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color:rgb(240, 205, 93) ;
+    color: black;
+    border-color: white;
+    border:solid 3px; 
+}
+.polaroid2:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color:black ;
+    color: white;
+    border-color: white;
+    border:solid 3px; 
+
+}
+
+.polaroid3 {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    border: solid 2px;
+    border-radius: 40px;
+    transition: 0.1s;
+
+}
+.polaroid3:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, black, white);
+    color: white;
+    border-color: white;
+    border:solid 3px; 
+
+}
+
+
+.polaroid4 {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    border: solid 2px;
+    border-radius: 40px;
+    transition: 0.1s;
+
+}
+.polaroid4:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color: black; 
+    background-image: linear-gradient(to bottom right, rgb(38, 199, 38), white);
+    color: black;
+    border-color: white;
+    border:solid 3px; 
+
+}
+
+
+.polaroid5 {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 1000px;
+    left: 500px  ;
+    border: solid 2px;
+    border-radius: 40px;
+    transition: 0.1s;
+
+}
+.polaroid5:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color: black; 
+    background-image: linear-gradient(to bottom right, white, black);
+    color: black;
+    border-color: white;
+    border:solid 3px; 
+
+}
+
+.polaroid6{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30),
+    0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 1000px;
+    left: 900px  ;
+    border: solid 2px;
+    border-radius: 40px;
+    transition: 0.1s;
+
+}
+.polaroid6:hover {
+    transform:scale(1.1);
+    z-index: 0;
+    background-color: black; 
+    background-image: linear-gradient(to bottom right, rgb(103, 103, 216),white);
+    color: rgb(24, 22, 22);
+    border-color: white;
+    border:solid 3px; 
+
+}
+
+img{
+    width: 280px;
+    height: auto;
+
+
+}
+h1{
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    left: 110px;
+    font-size: 20px;
+    
+}
+
+nav {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  height: 50px;
+  background: black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around; /* Distribute links evenly */
+  align-items: center;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white; /* Updated to white for better contrast */
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: yellow; /* Hover color for better visibility */
+}
+
+nav .animation {
+  position: absolute;
+  height: 5px;
+  top: 45px; /* Align animation bar below links */
+  z-index: 0;
+  background: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 110px; /* Default width */
+  left: 0; /* Default position */
+}
+
+/* Home link hover */
+nav a:nth-child(1):hover ~ .animation {
+ 
+  left: 50px;
+}
+
+/* About link hover */
+nav a:nth-child(2):hover ~ .animation {
+  width: 110px;
+  left: 295px; /* Adjusted positions */
+}
+
+/* Services link hover */
+nav a:nth-child(3):hover ~ .animation {
+  width: 110px;
+  left: 550px;
+}
+
+/* Portfolio link hover */
+nav a:nth-child(4):hover ~ .animation {
+  width: 120px;
+  left: 820px;
+}
+
+/* Contact link hover */
+nav a:nth-child(5):hover ~ .animation {
+  width: 120px;
+  left: 1090px;
+}
+
+@media (max-width: 600px) {
+    .polaroid1, .polaroid2, .polaroid3, .polaroid4, .polaroid5, .polaroid6 {
+        width: 60%;
+        height: 60%;
+        margin: 20px auto;
+    }
+.polaroid1{
+    position: absolute;
+    top: 400px;
+}
+    .polaroid2{
+        position: absolute;
+        left: 100px;
+        top: 1000px;
+    }
+    .polaroid3{
+        position: absolute;
+        left: 100px;
+       top: 1600px;
+        
+    }
+
+    .polaroid4{
+        position: absolute;
+       top: 2200px;
+        
+    }
+    .polaroid5{
+        position: absolute;
+        left: 100px;
+       top: 2800px;
+        
+    }
+
+    .polaroid6{
+        position: absolute;
+        left: 100px;
+       top: 3400px;
+        
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    
+
+    nav .animation {
+        display: none;
+    }
+
+    .add-to-cart-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-left: 90px;
+       
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .logo{
+        position: absolute;
+        right: 890px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .add-to-cart-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+}
